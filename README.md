@@ -31,8 +31,9 @@ This project implements a simple host-based firewall using Python and Linux ipta
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/Oussama-A-Belaiche/firewall-from-scratch
+   cd firewall-from-scratch
+   cd Firewall-python-code
    ```
 
 2. Install required Python libraries:
@@ -44,13 +45,13 @@ This project implements a simple host-based firewall using Python and Linux ipta
 3. Ensure Python script has execution permissions:
 
    ```bash
-   chmod +x firewall.py
+   chmod +x Firewall-code.py
    ```
 
 4. Run the script with root privileges:
 
    ```bash
-   sudo python firewall.py
+   sudo python Firewall-code.py
    ```
 
 ## Configuration
@@ -103,7 +104,7 @@ Modify these lists based on your requirements before running the script.
 - Run the script:
 
   ```bash
-  sudo python firewall.py
+  sudo python Firewall-code.py
   ```
 
 - Monitor logs:
@@ -126,9 +127,6 @@ Modify these lists based on your requirements before running the script.
 - Implement a graphical user interface (GUI) for easier rule management.
 - Extend support for protocols beyond TCP/IP.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contributing
 
